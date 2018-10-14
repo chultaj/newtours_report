@@ -17,7 +17,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -35,7 +35,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.enterCredentials(DataTable)"
+  "location": "Action.i_provide_username_and_password(DataTable)"
 });
 formatter.result({
   "status": "passed"
@@ -45,7 +45,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.signIn()"
+  "location": "Action.click_sign_in_button()"
 });
 formatter.result({
   "status": "passed"
@@ -55,7 +55,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -70,7 +70,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -89,7 +89,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.provideDetails(DataTable)"
+  "location": "Action.i_provide_flight_details(DataTable)"
 });
 formatter.result({
   "status": "passed"
@@ -99,7 +99,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.findFlights()"
+  "location": "Action.i_click_continue_button()"
 });
 formatter.result({
   "status": "passed"
@@ -109,7 +109,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -141,7 +141,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.checkFlightList(String,String\u003e)"
+  "location": "Validation.the_result_page_contains_flights(String,String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -173,7 +173,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.checkFlightList(String,String\u003e)"
+  "location": "Validation.the_result_page_contains_flights(String,String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -285,7 +285,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -303,7 +303,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.enterCredentials(DataTable)"
+  "location": "Action.i_provide_username_and_password(DataTable)"
 });
 formatter.result({
   "status": "passed"
@@ -313,7 +313,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.signIn()"
+  "location": "Action.click_sign_in_button()"
 });
 formatter.result({
   "status": "passed"
@@ -323,7 +323,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -338,7 +338,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -348,7 +348,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.provideDetails(String,String,String)"
+  "location": "Action.i_provide_flight_details(String,String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -358,7 +358,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.findFlights()"
+  "location": "Action.i_click_continue_button()"
 });
 formatter.result({
   "status": "passed"
@@ -368,7 +368,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -378,7 +378,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.isOnFlightList(String,String)"
+  "location": "Validation.flight_is_on_the_flights_list(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -388,7 +388,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.isOnFlightList(String,String)"
+  "location": "Validation.flight_is_on_the_flights_list(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -398,7 +398,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.chooseFlight(String)"
+  "location": "Action.i_choose_flight(String)"
 });
 formatter.result({
   "status": "passed"
@@ -408,7 +408,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.chooseFlight(String)"
+  "location": "Action.i_choose_flight(String)"
 });
 formatter.result({
   "status": "passed"
@@ -418,7 +418,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.reserveFlights()"
+  "location": "Action.i_click_continue_button2()"
 });
 formatter.result({
   "status": "passed"
@@ -428,7 +428,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -438,7 +438,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.purchase()"
+  "location": "Action.i_click_secure_purchase()"
 });
 formatter.result({
   "status": "passed"
@@ -448,7 +448,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -458,7 +458,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.verifyMessage(String)"
+  "location": "Validation.message_is_displayed(String)"
 });
 formatter.result({
   "status": "passed"
@@ -479,7 +479,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -497,7 +497,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.enterCredentials(DataTable)"
+  "location": "Action.i_provide_username_and_password(DataTable)"
 });
 formatter.result({
   "status": "passed"
@@ -507,7 +507,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.signIn()"
+  "location": "Action.click_sign_in_button()"
 });
 formatter.result({
   "status": "passed"
@@ -517,7 +517,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -532,7 +532,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -542,7 +542,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.provideDetails(String,String,String)"
+  "location": "Action.i_provide_flight_details(String,String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -552,7 +552,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.findFlights()"
+  "location": "Action.i_click_continue_button()"
 });
 formatter.result({
   "status": "passed"
@@ -562,7 +562,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -572,7 +572,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.isOnFlightList(String,String)"
+  "location": "Validation.flight_is_on_the_flights_list(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -582,7 +582,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.isOnFlightList(String,String)"
+  "location": "Validation.flight_is_on_the_flights_list(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -592,7 +592,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.chooseFlight(String)"
+  "location": "Action.i_choose_flight(String)"
 });
 formatter.result({
   "status": "passed"
@@ -602,7 +602,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.chooseFlight(String)"
+  "location": "Action.i_choose_flight(String)"
 });
 formatter.result({
   "status": "passed"
@@ -612,7 +612,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Action.reserveFlights()"
+  "location": "Action.i_click_continue_button2()"
 });
 formatter.result({
   "status": "passed"
@@ -622,7 +622,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -632,7 +632,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Action.purchase()"
+  "location": "Action.i_click_secure_purchase()"
 });
 formatter.result({
   "status": "passed"
@@ -642,7 +642,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Validation.pageTitleMatches(String)"
+  "location": "Validation.page_is_open(String)"
 });
 formatter.result({
   "status": "passed"
@@ -652,10 +652,125 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Validation.verifyMessage(String)"
+  "location": "Validation.message_is_displayed(String)"
 });
 formatter.result({
   "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Successful login with existing username and password",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Welcome\" page is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Validation.page_is_open(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I provide username and password",
+  "rows": [
+    {
+      "cells": [
+        "lah",
+        "password"
+      ]
+    }
+  ],
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Action.i_provide_username_and_password(DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click Sign-In button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Action.click_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Find a Flight\" page opens",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Validation.page_is_open(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Choose a one way flight (Buggy scenario)",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "\"Find a Flight\" page is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Validation.page_is_open(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I choose oneway flight",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Action.i_choose_oneway_flight()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click continue button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Action.i_click_continue_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Select a Flight\" page opens",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Validation.page_is_open(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Only Departure flighs are displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Validation.only_Departure_flighs_are_displayed()"
+});
+formatter.result({
+  "error_message": "java.lang.AssertionError: There should be no return flights! expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat com.demoaut.newtours.steps.Validation.only_Departure_flighs_are_displayed(Validation.java:66)\n\tat ✽.Only Departure flighs are displayed(src/test/resources/features/Book.feature:55)\n",
+  "status": "failed"
 });
 formatter.after({
   "status": "passed"
